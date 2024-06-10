@@ -14,33 +14,38 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Image Gallery Project
+This is a React-based image gallery project with several features aimed at providing a user-friendly experience for managing and interacting with images.
 
-### `npm run build`
+Features
+Drag and Drop Reordering: Utilizes the react-flip-move library to enable drag and drop reordering of images within the gallery.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Responsive Header: The header of the gallery adjusts dynamically to different screen sizes, ensuring a consistent user experience across devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Multiple Image Selection: Users can select multiple images with visual clarity, making it easy to identify which images are currently selected.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Integration of React Icons: React icons are utilized for various buttons within the gallery, enhancing the visual appeal and providing recognizable icons for different actions.
 
-### `npm run eject`
+Page Background Color Transition: The page background features a smooth color transition effect, adding a subtle visual enhancement to the overall user interface.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Revert Option After Deletion: Users have the option to revert the deletion of images, providing a safety net in case they accidentally delete images they didn't intend to.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Add Image Functionality Omitted: Although the ability to add new images was not a requirement, the gallery is designed to accommodate future integration of this feature.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Bulk Image Deletion: Users can delete multiple images at once, streamlining the process of managing large galleries.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Usage
+To run the project locally:
 
-## Learn More
+Clone the repository to your local machine.
+Navigate to the project directory.
+Install dependencies using npm install.
+Run the project using npm start.
+Access the gallery in your web browser at http://localhost:3000.
+Credits
+This project makes use of the following libraries and frameworks:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+React
+react-flip-move
+React Icons
